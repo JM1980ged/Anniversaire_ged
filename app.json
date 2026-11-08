@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Anniversaires GED",
+    "slug": "anniversaires-ged",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": ["expo-notifications"],
+    "android": {
+      "package": "com.anniversairesged.app",
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.SCHEDULE_EXACT_ALARM",
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "com.anniversairesged.app",
+      "supportsTablet": true
+    }
+  }
+}
