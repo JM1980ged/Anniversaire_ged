@@ -13,9 +13,9 @@ import { StatusBar } from 'expo-status-bar';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import * as DocumentPicker from 'expo-document-picker';
 
-import { parseGedcom, birthdaysOn, upcomingBirthdays, ageText, packPeople, unpackPeople } from './lib/gedcom';
-import { readGedFile } from './lib/readFile';
-import { scheduleAll, sendTest, NOTIFY_HOUR } from './lib/notifications';
+import { parseGedcom, birthdaysOn, upcomingBirthdays, ageText, packPeople, unpackPeople } from './gedcom';
+import { readGedFile } from './readFile';
+import { scheduleAll, sendTest, NOTIFY_HOUR } from './notifications';
 
 const K_PEOPLE = 'ged.people.v1';
 const K_META = 'ged.meta.v1';
